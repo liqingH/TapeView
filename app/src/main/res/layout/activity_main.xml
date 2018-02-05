@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tapeView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="com.lqh.tapeview.MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textColor="#7db788"
+        android:textSize="20sp" />
+
+    <com.lqh.library.TapeView
+        android:id="@+id/tapeView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tapeView:backgroundColor="#f9e233"
+        tapeView:current="160"
+        tapeView:indicatorColor="#ffffff"
+        tapeView:interval="10"
+        tapeView:max="200"
+        tapeView:min="100"
+        tapeView:scaleLineColor="#ffffff"
+        tapeView:scaleTextColor="#ffffff"
+        tapeView:space="0.1"
+        tapeView:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#7db788"
+        android:textSize="20sp" />
+
+
+    <com.lqh.library.TapeView
+        android:id="@+id/tapeView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scroll"
+            android:text="滑动到" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:minWidth="80dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

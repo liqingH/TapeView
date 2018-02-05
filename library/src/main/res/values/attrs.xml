@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TapeView">
+        <attr name="min" format="float" />
+        <attr name="max" format="float" />
+        <attr name="current" format="float" />
+        <attr name="interval" format="integer" />
+        <attr name="space" format="float" />
+        <attr name="textSize" format="dimension" />
+        <attr name="scaleLineColor" format="color" />
+        <attr name="scaleTextColor" format="color" />
+        <attr name="indicatorColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">library</string>
+    <string name="weight_label">体重 %s kg</string>
+    <string name="height_label">身高 %s cm</string>
+</resources>
