@@ -337,7 +337,7 @@ public class TapeView extends View {
      *
      * @param shortSpace 间距值
      */
-    public void setShortSpace(float shortSpace) {
+    public void setSpace(float shortSpace) {
         this.shortSpace = shortSpace;
         axis.setShortSpace(shortSpace);
         axis.calculate();

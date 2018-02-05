@@ -52,13 +52,13 @@ public class MainActivity extends AppCompatActivity {
         tapeView2.setMin(0);
         tapeView2.setMax(100);
         tapeView2.setInterval(10);
-        tapeView2.setShortSpace(0.1f);
+        tapeView2.setSpace(0.1f);
         tapeView2.setScaleLineColor(Color.WHITE);
         tapeView2.setBackgroundColor(Color.BLUE);
         tapeView2.setScaleTextColor(Color.WHITE);
         tapeView2.setIndicatorColor(Color.WHITE);
         tapeView2.setTextSize(Utils.dpToPixel(16));
-        tapeView2.setCurrent(50);
+        tapeView2.setCurrent(0);
         tapeView2.setOnScaleChangeListener(new OnScaleChangeListener() {
             @Override
             public void onScaleChange(float scale) {
