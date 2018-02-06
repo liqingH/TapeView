@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView textView2;
     private EditText editText;
 
-    SpannableString msp1;
-    SpannableString msp2;
+    private SpannableString msp1;
+    private SpannableString msp2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         tapeView2.setInterval(10);
         tapeView2.setSpace(0.1f);
         tapeView2.setScaleLineColor(Color.WHITE);
-        tapeView2.setBackgroundColor(Color.BLUE);
+        tapeView2.setBackgroundColor(Color.BLACK);
         tapeView2.setScaleTextColor(Color.WHITE);
         tapeView2.setIndicatorColor(Color.WHITE);
         tapeView2.setTextSize(Utils.dpToPixel(16));

@@ -10,7 +10,7 @@
 
 Gradle
 ```java
-审核中(- -!)
+compile 'com.lqh.library:tapeview:1.0.0'
 ```
 在布局文件中直接使用
 ```xml

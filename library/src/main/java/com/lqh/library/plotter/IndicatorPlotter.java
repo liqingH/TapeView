@@ -37,7 +37,7 @@ public class IndicatorPlotter implements Plotter {
     @Override
     public void draw(Canvas canvas) {
         Path path = new Path();
-        currentX = (int) ((axis.currMaxPixel + axis.currMinPixel) / 2);
+        currentX = (axis.currMaxPixel + axis.currMinPixel) / 2;
         path.moveTo(currentX, Utils.dpToPixel(8));
         path.lineTo(currentX - Utils.dpToPixel(8), 0);
         path.lineTo(currentX + Utils.dpToPixel(8), 0);

@@ -1,6 +1,8 @@
 *.iml
 .gradle
 /local.properties
-/.idea
+.idea/
 /build
 libs/
+bintrayUpload.gradle
+pom.xml

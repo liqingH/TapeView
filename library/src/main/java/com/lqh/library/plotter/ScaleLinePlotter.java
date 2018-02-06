@@ -34,12 +34,12 @@ public class ScaleLinePlotter implements Plotter {
 
     @Override
     public void draw(Canvas canvas) {
-        paint.setStrokeWidth(4);
+        paint.setStrokeWidth(5);
         for (int i = 0; i < axis.getLongLineCount(); i++) {
             drawLongLine(canvas, i);
         }
 
-        paint.setStrokeWidth(2);
+        paint.setStrokeWidth(3);
         for (int i = 0; i < axis.getShortLineCount(); i++) {
             drawShortLine(canvas, i);
         }
